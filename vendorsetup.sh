@@ -23,3 +23,6 @@
 for var in eng user userdebug; do
   add_lunch_combo lineage_p9000-$var
 done
+
+#Pre-Root
+export WITH_SU=true
